@@ -1,15 +1,21 @@
 operations - dom
-requestChildNodesAt: rootNode depth: depth
+requestChildNodesAt: chromeNode depth: depth
 
 	| result processor |
 
-	processor := ChromeSetChildNodeProcessor rootNode: rootNode.
+	ChromeStringSignal new
+		message: 'requestChildNodesAt: ', chromeNode printString, ' depth: ', depth printString;
+		log.
+	processor := ChromeSetChildNodeProcessor rootNode: chromeNode.
 	self addMessageProcessor: processor.
 	result := self sendMessage: {
         'method' -> 'DOM.requestChildNodes'.
-        'params' -> {'nodeId' -> rootNode nodeId. 'depth' -> depth} asDictionary
+        'params' -> {'nodeId' -> chromeNode nodeId. 'depth' -> depth} asDictionary
       } asDictionary.
 	self checkResponse: result.
 	processor wait.
 	self removeMessageProcessor: processor.
+	ChromeStringSignal new
+		message: 'requestChildNodesAt: ', chromeNode printString, ' done';
+		log.
 	^result
