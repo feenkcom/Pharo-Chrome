@@ -14,7 +14,7 @@ tableData
 		rows do: [ :row |
 			stream nextPut: (Array streamContents: [ :rowStream |
 				cells := row findAllTags: #('td' 'th').
-				cells do: [ :cell |
-					rowStream nextPut: (cell 
-						detect: [ :child | child isString ]
-						ifNone: ['String not found']) contents ] ]) ] ].
+				cells do: [ :cell | | strings string |
+					strings := (cell findAllStrings: true) collect: [ :each | each contents ].
+					string := (' ' join: strings) trimBoth: [ :char | char isSeparator or: [ char isAlphaNumeric not ] ].
+					rowStream nextPut: string ] ]) ] ].
