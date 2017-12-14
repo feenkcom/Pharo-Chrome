@@ -17,7 +17,7 @@ get: anURL stopOn: aBlock
 
 	loaded := aBlock value: self rootNode.
 	now := DateAndTime now.
-	[ loaded or: [ (now - startTime) > (Duration forSeconds: maxLoadSeconds) ] ] whileFalse: [ 
+	[ loaded or: [ (now - startTime) > (Duration seconds: maxLoadSeconds) ] ] whileFalse: [ 
 		self
 			getDocument;
 			getMissingChildren.
