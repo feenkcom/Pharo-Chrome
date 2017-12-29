@@ -17,5 +17,6 @@ exampleNavigation
 	page getDocument.
 	page getMissingChildren.
 	page updateTitle.
+	chrome closeAndExit.
 	logger stop.
 	^{ chrome. page. logger. }
