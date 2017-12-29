@@ -1,7 +1,8 @@
 operations - page
 get: anURL stopOn: aBlock
 	"Navigate to the supplied URL, retrieve the DOM and answer the root node.
-	Use the supplied block to determine if the content has been retrieved."
+	Use the supplied block to determine if the content has been retrieved.
+	NOTE: This method is still in the experimental stage and may need fixing."
 
 	| startTime now maxLoadSeconds loaded |
 
