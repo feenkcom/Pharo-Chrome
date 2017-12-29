@@ -59,6 +59,10 @@ To keep the original Monticello idea of having #stable and #development versions
 * The `master` branch is #stable
 * The `development` branch is #development
 
+### Pharo 7 Installation
+
+Pharo-Chrome relies on ZnWebSocket, which doesn't appear to be loaded in Pharo 7.  If you are missing ZnWebSocket, please send a message to the pharo-users mailing list for help.
+
 
 ## A Short Demo
 
