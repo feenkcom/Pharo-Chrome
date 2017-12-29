@@ -62,7 +62,7 @@ To keep the original Monticello idea of having #stable and #development versions
 
 ## A Short Demo
 
-### Stock price retieval
+### Stock price retrieval
 
 As a demonstration of Pharo-Chrome, we'll retrieve some stock prices from the Australian ASX S&P 200 stock index:
 
