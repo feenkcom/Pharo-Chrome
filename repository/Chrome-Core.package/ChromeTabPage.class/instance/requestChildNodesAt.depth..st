@@ -5,7 +5,7 @@ requestChildNodesAt: chromeNode depth: depth
 
 	ChromeStringSignal new
 		message: 'requestChildNodesAt: ', chromeNode printString, ' depth: ', depth printString;
-		log.
+		emit.
 	processor := ChromeSetChildNodeProcessor rootNode: chromeNode.
 	self addMessageProcessor: processor.
 	result := self sendMessage: {
@@ -17,5 +17,5 @@ requestChildNodesAt: chromeNode depth: depth
 	self removeMessageProcessor: processor.
 	ChromeStringSignal new
 		message: 'requestChildNodesAt: ', chromeNode printString, ' done';
-		log.
+		emit.
 	^result
