@@ -1,5 +1,5 @@
 private
 sendMessageString: aMessageString
 
-	ChromeStringSignal log: aMessageString category: 'sendMessage:'.
+	ChromeStringSignal emit: aMessageString category: 'sendMessage:'.
 	^self webSocket sendMessage: aMessageString

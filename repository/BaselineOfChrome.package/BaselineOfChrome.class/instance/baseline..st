@@ -4,23 +4,13 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec project: 'ZincHTTPComponents' with: [
-				spec
-					className: #ConfigurationOfZincHTTPComponents;
-					versionString: #'stable';
-					loads: #('WebSocket');
-					repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
-		spec project: 'Beacon' with: [ 
-			spec
-				className: #ConfigurationOfBeacon;
-				versionString: #development;
-				repository: 'http://smalltalkhub.com/mc/girba/Beacon/main/' ].
+		spec baseline: 'Beacon' with: [ 
+			spec repository: 'github://pharo-project/pharo-beacon/repository' ].
 		spec baseline: 'AKGOSProcess' with: [ 
-			spec
-				repository: 'github://akgrant43/pharo-akgosprocess/mc' ].
+			spec repository: 'github://akgrant43/pharo-akgosprocess/mc' ].
 		spec 
 			package: #'Chrome-Core' with: [
-				spec requires: #('ZincHTTPComponents' 'Beacon' 'AKGOSProcess'). ];
+				spec requires: #('Beacon' 'AKGOSProcess'). ];
 			package: #'Chrome-Tests-Core' with: [
 				spec requires: #(#'Chrome-Core' ). ].
 		spec 
