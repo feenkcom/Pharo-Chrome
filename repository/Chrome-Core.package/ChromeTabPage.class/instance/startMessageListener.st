@@ -18,4 +18,4 @@ startMessageListener
 					socketState := #closed.
 					webSocket := nil ] ].
 			ChromeStringSignal emit: 'Message Listener: exiting' category: 'Message Listener'.
-	] forkNamed: 'ChromeTabPage ', id printString.
+	] forkAt: 20 named: 'ChromeTabPage ', id asString.
