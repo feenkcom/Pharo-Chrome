@@ -15,7 +15,8 @@ Public API and Key Messages
 Internal Representation and Key Implementation Points.
 
     Instance Variables
-	semaphore:		<Semaphore>
+		semaphore:		<Semaphore>
+		maxWaitSeconds:    <Integer> The maximum time to wait in seconds for the operation to complete
 
 
     Implementation Points
