@@ -6,4 +6,6 @@ wait
 
 	timedout := semaphore waitTimeoutSeconds: maxWaitSeconds.
 	timedout ifTrue: 
-		[ TimedOut signal: self class name ].
+		[ ChromeLoadTimeout new 
+				processor: self;
+				signal: 'Exceeded ', maxWaitSeconds asString, ' seconds' ].
