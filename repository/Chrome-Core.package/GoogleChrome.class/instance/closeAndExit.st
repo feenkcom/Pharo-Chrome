@@ -2,4 +2,6 @@ operating
 closeAndExit
 	"Ask the browser to exit"
 
-	chromeProcess sigterm.
+	chromeProcess ifNotNil: [ 
+		chromeProcess sigterm.
+		chromeProcess := nil ].
