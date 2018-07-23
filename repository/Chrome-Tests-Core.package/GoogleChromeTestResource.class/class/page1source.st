@@ -7,7 +7,7 @@ page1source
 </head>
 <body>
 <h1>Title One</h1>
-<p>Paragraph One</p>
+<p class="p1">Paragraph One</p>
 <ul>
 <li><a href="http://pharo.org">Go to Pharo.Org</a> with some more text</li>
 </ul>

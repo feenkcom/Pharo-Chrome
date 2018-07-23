@@ -14,6 +14,8 @@ A ZnEasy like interface is provided for retrieving pages:
 GoogleChrome get: 'http://pharo.org'
 ```
 
+retrieves the contents in a headless browser and returns the root node.
+
 An example of more detailed operations are available in `GoogleChrome class>>exampleNavigation`.
 
 ## Features
@@ -149,7 +151,6 @@ To retrieve a png image of the pharo.org front page in headless mode:
 | browser page image |
 
 browser := GoogleChrome new.
-browser headless: true.
 browser open.
 page := browser firstTab.
 page get: 'http://pharo.org'.
