@@ -7,7 +7,7 @@ get: anURL stopOn: aBlock
 	| startTime now maxLoadSeconds loaded |
 
 	startTime := DateAndTime now.
-	maxLoadSeconds := 4 * 60.
+	maxLoadSeconds := 1 * 60.
 	self pageLoadDelay: 1000.
 	self
 		enableDOM;

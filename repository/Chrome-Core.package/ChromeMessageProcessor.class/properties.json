@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "AlistairGrant 5/28/2017 13:29",
+	"commentStamp" : "AlistairGrant 2/28/2018 16:34",
 	"super" : "Object",
 	"category" : "Chrome-Core-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"semaphore"
+		"semaphore",
+		"maxWaitSeconds"
 	],
 	"name" : "ChromeMessageProcessor",
 	"type" : "normal"
