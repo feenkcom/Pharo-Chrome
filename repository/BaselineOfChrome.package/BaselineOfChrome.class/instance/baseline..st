@@ -4,8 +4,6 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec baseline: 'Beacon' with: [ 
-			spec repository: 'github://pharo-project/pharo-beacon/repository' ].
 		spec baseline: 'AKGOSProcess' with: [ 
 			spec repository: 'github://akgrant43/pharo-akgosprocess/mc' ].
 		spec 
