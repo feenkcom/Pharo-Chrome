@@ -6,9 +6,13 @@ baseline: spec
 		spec blessing: #'baseline'.
 		spec baseline: 'AKGOSProcess' with: [ 
 			spec repository: 'github://akgrant43/pharo-akgosprocess/mc' ].
+		spec baseline: 'ZincHTTPComponents' with: 
+			[ spec 
+				repository: 'github://svenvc/zinc';
+				loads: #('WebSocket') ]. 
 		spec 
 			package: #'Chrome-Core' with: [
-				spec requires: #('Beacon' 'AKGOSProcess'). ];
+				spec requires: #('AKGOSProcess' 'ZincHTTPComponents'). ];
 			package: #'Chrome-Tests-Core' with: [
 				spec requires: #(#'Chrome-Core' ). ].
 		spec 
