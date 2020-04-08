@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeMessageFactory",
+	"category" : "Chrome-Core-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeDebuggerMessageFactory",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeDevToolsEndpoint",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debuggerId",
+		"parsedScripts",
+		"state"
+	],
+	"name" : "NodeJSDebugger",
+	"type" : "normal"
+}

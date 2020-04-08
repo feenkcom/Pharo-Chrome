@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NodeJSDebuggerRawObject",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callFrames"
+	],
+	"name" : "NodeJSDebuggerState",
+	"type" : "normal"
+}

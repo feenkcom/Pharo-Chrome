@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CDPRawObject",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger"
+	],
+	"name" : "NodeJSDebuggerRawObject",
+	"type" : "normal"
+}

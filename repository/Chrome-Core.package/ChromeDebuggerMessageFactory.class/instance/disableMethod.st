@@ -1,0 +1,4 @@
+accessing
+disableMethod
+
+	^ #'Debugger.disable'

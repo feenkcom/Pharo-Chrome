@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlistairGrant 4/8/2020 11:43",
+	"super" : "ChromeMessageProcessor",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger"
+	],
+	"name" : "NodeJSDebuggerProcessor",
+	"type" : "normal"
+}
