@@ -2,8 +2,8 @@ ui
 gtSourceCodeFor: aView
 	<gtView>
 
-	self hasSourceCode ifFalse: [ ^ aView empty ].
 	^ aView textEditor 
 		title: 'Source';
 		priority: 10;
-		text: [ self sourceText ]
+		text: [ self sourceText ];
+		updateWhen: NodeJSDebuggerStateChange in: [ self announcer ]

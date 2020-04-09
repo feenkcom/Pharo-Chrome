@@ -2,5 +2,6 @@ accessing
 columnNumber 
 
 	^ rawData at: #columnNumber 
-		ifPresent: [ :columnNumber | columnNumber ]
-		ifAbsent: [ self functionLocation at: #columnNumber ]
+		ifAbsent: [ self location 
+			at: #columnNumber
+			ifAbsent: [ 0 ] ]

@@ -1,8 +1,8 @@
 api
-stepOver
-	"Step over the next statement"
+getStackTrace
+	| resultHolder |
 
-	self
+	resultHolder := self
 		sendMessage: ChromeDebuggerMessageFactory new stepOver
 		wait: true.
-	"self getStackTrace."
+	^ resultHolder
