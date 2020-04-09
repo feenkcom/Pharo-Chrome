@@ -12,12 +12,17 @@ processMethodEvent: method from: aMessageDictionary
 
 	method = #'Debugger.paused' ifTrue: 
 		[ object := NodeJSDebuggerState fromDictionary: params in: self debugger.
-		^ self debugger state: object ].
+		^ self debugger 
+			state: object;
+			debuggerPaused ].
 
 	method = #'Debugger.resumed' ifTrue: 
-		[ ^ self ].
+		[ ^ self debugger debuggerResumed ].
 
 	method = #'Runtime.consoleAPICalled' ifTrue: 
 		[ ^ self processConsoleAPICalled: params. ].
+
+	method = #'Runtime.executionContextDestroyed' ifTrue: 
+		[ ^ self debugger close. ].
 
 	self halt.

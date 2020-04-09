@@ -6,4 +6,4 @@ close
 		[ messageProcessor terminate.
 		messageProcessor := nil ].
 	webSocket := nil.
-	socketState := #closed.
+	self disconnected.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NodeJSDebuggerAnnouncement",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NodeJSDebuggerPaused",
+	"type" : "normal"
+}

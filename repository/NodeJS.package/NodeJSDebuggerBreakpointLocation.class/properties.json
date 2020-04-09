@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NodeJSDebuggerRawObject",
+	"category" : "NodeJS-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NodeJSDebuggerBreakpointLocation",
+	"type" : "normal"
+}

@@ -14,7 +14,6 @@ startMessageListener
 				on: ConnectionClosed, PrimitiveFailed
 				do: [ :ex | 
 					ChromeStringSignal emit: 'Message Listener, connection closed' category: 'Message Listener'.
-					socketState := #closed.
-					webSocket := nil ] ].
+					self disconnected ] ].
 			ChromeStringSignal emit: 'Message Listener: exiting' category: 'Message Listener'.
 	] forkAt: Processor userSchedulingPriority named: 'CDT Endpoint ', self id asString.

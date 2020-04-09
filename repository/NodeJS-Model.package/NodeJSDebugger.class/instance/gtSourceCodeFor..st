@@ -6,4 +6,6 @@ gtSourceCodeFor: aView
 		title: 'Source';
 		priority: 10;
 		text: [ self sourceText ];
-		updateWhen: NodeJSDebuggerStateChange in: [ self announcer ]
+		styler: JSParser gtStyler;
+		look: BrGlamorousCodeEditorLook new;
+		updateWhen: NodeJSDebuggerPaused in: [ self announcer ]

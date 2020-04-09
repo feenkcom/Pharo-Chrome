@@ -2,7 +2,7 @@ messages
 setPauseOnExceptions: stateString
 
 	"Need to determine all the valid values"
-	self assert: (#(none) includes: stateString).
+	self assert: (#(none all) includes: stateString).
 
 	^ { #method -> 'Debugger.setPauseOnExceptions'.
 		#params -> { #state -> stateString } asDictionary } asDictionary.
