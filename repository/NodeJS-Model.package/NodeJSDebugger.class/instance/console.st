@@ -1,0 +1,4 @@
+accessing
+console
+
+	^ consoleStream contents

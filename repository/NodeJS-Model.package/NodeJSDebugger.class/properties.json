@@ -8,7 +8,8 @@
 	"instvars" : [
 		"debuggerId",
 		"parsedScripts",
-		"state"
+		"state",
+		"consoleStream"
 	],
 	"name" : "NodeJSDebugger",
 	"type" : "normal"
