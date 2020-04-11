@@ -5,5 +5,6 @@ onAddedToSceneGraph
 	super onAddedToSceneGraph.
 	self debugger announcer 
 		when: NodeJSDebuggerPaused
-		send: #updateSourceCode 
+		send: #scheduleUpdateSourceCode 
 		to: self.
+	self scheduleUpdateSourceCode.

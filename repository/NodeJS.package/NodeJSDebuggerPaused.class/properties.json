@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "NodeJSDebuggerAnnouncement",
-	"category" : "NodeJS-Model",
+	"category" : "NodeJS-Announcements",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

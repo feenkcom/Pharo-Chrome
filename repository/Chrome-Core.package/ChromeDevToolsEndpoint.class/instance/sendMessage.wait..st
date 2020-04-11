@@ -4,6 +4,10 @@ sendMessage: aDictionary wait: waitBoolean
 
 	| result processor mid |
 
+	"Attempting to send a message and wait from the messageprocessor process will result in deadlock"
+	(waitBoolean and: [ Processor activeProcess == messageProcessor ]) ifTrue: 
+		[ self error: 'Can''t send message from messageProcessor process' ].
+
 	result := nil.
 	"Ensure that a message id is included"
 	mid := aDictionary at: 'id' ifAbsentPut: [self nextMessageId].
