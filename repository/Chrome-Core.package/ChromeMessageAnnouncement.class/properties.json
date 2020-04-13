@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "AlistairGrant 5/20/2017 09:55",
-	"super" : "ChromeDevTools",
+	"commentStamp" : "",
+	"super" : "Announcement",
 	"category" : "Chrome-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"chromeProcess"
+		"rawData"
 	],
-	"name" : "GoogleChrome",
+	"name" : "ChromeMessageAnnouncement",
 	"type" : "normal"
 }

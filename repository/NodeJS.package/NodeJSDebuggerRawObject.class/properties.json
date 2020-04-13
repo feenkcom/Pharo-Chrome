@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlistairGrant 4/11/2020 20:10",
+	"super" : "CDPRawObject",
+	"category" : "NodeJS-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger"
+	],
+	"name" : "NodeJSDebuggerRawObject",
+	"type" : "normal"
+}

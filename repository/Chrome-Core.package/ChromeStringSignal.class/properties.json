@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "AlistairGrant 3/9/2018 08:32",
-	"super" : "BeaconSignal",
+	"super" : "ChromeSignal",
 	"category" : "Chrome-Core-Beacon",
 	"classinstvars" : [ ],
 	"pools" : [ ],

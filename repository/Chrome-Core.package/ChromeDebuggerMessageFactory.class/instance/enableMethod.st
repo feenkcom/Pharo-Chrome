@@ -1,0 +1,4 @@
+accessing
+enableMethod
+
+	^ #'Debugger.enable'

@@ -1,0 +1,4 @@
+accessing
+endPointClass
+
+	^ self subclassResponsibility

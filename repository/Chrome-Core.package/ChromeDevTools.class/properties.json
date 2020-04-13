@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "AlistairGrant 5/20/2017 09:55",
-	"super" : "ChromeDevTools",
+	"commentStamp" : "AlistairGrant 4/8/2020 08:41",
+	"super" : "Object",
 	"category" : "Chrome-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"chromeProcess"
+		"host",
+		"settings"
 	],
-	"name" : "GoogleChrome",
+	"name" : "ChromeDevTools",
 	"type" : "normal"
 }

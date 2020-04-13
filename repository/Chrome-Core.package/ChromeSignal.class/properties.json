@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BeaconSignal",
+	"category" : "Chrome-Core-Beacon",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeSignal",
+	"type" : "normal"
+}

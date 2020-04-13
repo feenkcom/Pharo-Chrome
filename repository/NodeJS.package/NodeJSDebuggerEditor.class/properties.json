@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BrEditor",
+	"category" : "NodeJS-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger",
+		"scriptId",
+		"text",
+		"highlightLineNumber",
+		"highlightColumnNumber",
+		"highlightStart",
+		"highlightEnd"
+	],
+	"name" : "NodeJSDebuggerEditor",
+	"type" : "normal"
+}

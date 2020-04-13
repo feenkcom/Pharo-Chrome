@@ -1,0 +1,4 @@
+accessing
+disableMethod 
+
+	^ self subclassResponsibility 

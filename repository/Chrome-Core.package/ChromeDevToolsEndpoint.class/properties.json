@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Chrome-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rawData",
+		"announcer",
+		"webSocket",
+		"messageQueue",
+		"messageListener",
+		"socketState",
+		"messageId",
+		"messageProcessor"
+	],
+	"name" : "ChromeDevToolsEndpoint",
+	"type" : "normal"
+}

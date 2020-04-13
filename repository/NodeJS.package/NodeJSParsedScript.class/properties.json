@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NodeJSDebuggerRawObject",
+	"category" : "NodeJS-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"source"
+	],
+	"name" : "NodeJSParsedScript",
+	"type" : "normal"
+}
