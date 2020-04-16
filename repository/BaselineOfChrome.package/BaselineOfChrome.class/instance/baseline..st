@@ -13,6 +13,8 @@ baseline: spec
 		spec 
 			package: #'Chrome-Core' with: [
 				spec requires: #('AKGOSProcess' 'ZincHTTPComponents'). ];
+			package: #'ChromeDevTools' with: [ 
+				spec requires: #(#'Chrome-Core') ];
 			package: #'Chrome-Tests-Core' with: [
 				spec requires: #(#'Chrome-Core' ). ].
 		spec 
