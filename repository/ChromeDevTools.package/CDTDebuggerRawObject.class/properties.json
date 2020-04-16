@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlistairGrant 4/11/2020 20:10",
+	"super" : "CDPRawObject",
+	"category" : "ChromeDevTools-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger"
+	],
+	"name" : "CDTDebuggerRawObject",
+	"type" : "normal"
+}

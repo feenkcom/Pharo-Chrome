@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTDebuggerRawObject",
+	"category" : "ChromeDevTools-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callFrames"
+	],
+	"name" : "CDTDebuggerState",
+	"type" : "normal"
+}

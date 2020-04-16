@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTDebuggerRawObject",
+	"category" : "ChromeDevTools-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTDebuggerBreakpoint",
+	"type" : "normal"
+}

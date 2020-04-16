@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTDebuggerAnnouncement",
+	"category" : "ChromeDevTools-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTDebuggerConsoleUpdated",
+	"type" : "normal"
+}

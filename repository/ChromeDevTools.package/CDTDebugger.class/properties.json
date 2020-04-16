@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeDevToolsEndpoint",
+	"category" : "ChromeDevTools-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debuggerId",
+		"parsedScripts",
+		"debuggerState",
+		"state",
+		"consoleStream",
+		"breakpoints"
+	],
+	"name" : "CDTDebugger",
+	"type" : "normal"
+}

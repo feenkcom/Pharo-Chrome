@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BrEditor",
+	"category" : "ChromeDevTools-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debugger",
+		"scriptId",
+		"text",
+		"highlightLineNumber",
+		"highlightColumnNumber",
+		"highlightStart",
+		"highlightEnd"
+	],
+	"name" : "CDTDebuggerEditor",
+	"type" : "normal"
+}

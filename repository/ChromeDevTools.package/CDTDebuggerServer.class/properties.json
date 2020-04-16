@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeDevTools",
+	"category" : "ChromeDevTools-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTDebuggerServer",
+	"type" : "normal"
+}
