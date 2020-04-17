@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "AlistairGrant 4/17/2020 10:40",
+	"commentStamp" : "",
 	"super" : "ChromeMessageFactory",
 	"category" : "Chrome-Core-Messages",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ChromeDebuggerMessageFactory",
+	"name" : "ChromePageMessageFactory",
 	"type" : "normal"
 }

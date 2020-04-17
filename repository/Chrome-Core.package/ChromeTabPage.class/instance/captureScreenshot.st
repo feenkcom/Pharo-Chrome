@@ -1,18 +1,14 @@
 operations - page
 captureScreenshot
+	"Capture a screenshot of the current page at full resolution"
+	| base64 json layout message |
 
-	| base64 json layout clip |
 	layout := self getLayoutMetrics.
-	clip := { 
-		'x' -> 0.
-		'y' -> 0.
-		'width' -> ((layout at: 'contentSize') at: 'width').
-		'height' -> ((layout at: 'contentSize') at: 'height').
-		'scale' -> 1.0. } asDictionary.
-	json := self sendMessage: {
-        'method' -> 'Page.captureScreenshot'.
-        'params' -> { 'clip' -> clip } asDictionary.
-      } asDictionary.
+	message := ChromePageMessageFactory new 
+		captureScreenshotX: 0 y: 0 
+		width: ((layout at: 'contentSize') at: 'width')
+		height: ((layout at: 'contentSize') at: 'height')
+		scale: 1.0.
+	json := self sendMessage: message.
 	base64 := (json at: 'result') at: 'data'.
-	
-	^Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: base64 readStream) 
+		^Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: base64 readStream) 

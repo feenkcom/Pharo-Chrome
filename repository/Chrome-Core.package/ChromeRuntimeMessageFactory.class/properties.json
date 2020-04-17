@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AlistairGrant 4/17/2020 10:41",
 	"super" : "ChromeMessageFactory",
 	"category" : "Chrome-Core-Messages",
 	"classinstvars" : [ ],

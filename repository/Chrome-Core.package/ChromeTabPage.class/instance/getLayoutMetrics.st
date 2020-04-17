@@ -2,8 +2,5 @@ operations - page
 getLayoutMetrics
 
 	| result |
-	result := self sendMessage: {
-        'method' -> 'Page.getLayoutMetrics'.
-        'params' ->  { }
-      } asDictionary.
+	result := self sendMessage: ChromePageMessageFactory new getLayoutMetrics.
 	^result at: 'result'
