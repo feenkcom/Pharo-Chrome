@@ -8,7 +8,7 @@ baseline: spec
 			spec repository: 'github://akgrant43/pharo-akgosprocess/mc' ].
 		spec baseline: 'ZincHTTPComponents' with: 
 			[ spec 
-				repository: 'github://svenvc/zinc';
+				repository: 'github://feenkcom/zinc:v3.0.3-gt/repository';
 				loads: #('WebSocket') ]. 
 		spec 
 			package: #'Chrome-Core' with: [
