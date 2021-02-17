@@ -1,6 +1,4 @@
 private
 scheduleUpdateSourceCode
 
-	BlUseAsyncFeatures 
-		ifEnabledDo: [ BlTktWorkerProvider highUIExternalResourceBoundPool schedule: self queueEntry ] 
-		otherwise: [ self queueEntry execute ].
+	self enqueueTask: (BlTaskAction new action: [ self updateSourceCode ]).
