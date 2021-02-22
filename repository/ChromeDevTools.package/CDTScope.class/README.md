@@ -1,0 +1,1 @@
+https://chromedevtools.github.io/devtools-protocol/v8/Debugger/#type-Scope

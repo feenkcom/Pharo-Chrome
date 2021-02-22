@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AlistairGrant 2/22/2021 08:11",
 	"super" : "CDTDebuggerRawObject",
 	"category" : "ChromeDevTools-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"scopeChain"
+		"properties"
 	],
-	"name" : "CDTCallFrame",
+	"name" : "CDTScope",
 	"type" : "normal"
 }
