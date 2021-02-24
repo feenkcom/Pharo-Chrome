@@ -5,4 +5,3 @@ resume
 	self
 		sendMessage: ChromeDebuggerMessageFactory new resume
 		wait: true.
-	"self getStackTrace."
