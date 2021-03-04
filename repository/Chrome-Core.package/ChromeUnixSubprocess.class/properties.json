@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Chrome-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"command",
+		"arguments",
+		"process",
+		"semaphore",
+		"stdout",
+		"stderr",
+		"errorBlock",
+		"workingDirectory"
+	],
+	"name" : "ChromeUnixSubprocess",
+	"type" : "normal"
+}
