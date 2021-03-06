@@ -25,4 +25,7 @@ processMethodEvent: method from: aMessageDictionary
 	method = #'Runtime.executionContextDestroyed' ifTrue: 
 		[ ^ self debugger close. ].
 
+	method = #'Debugger.scriptFailedToParse' ifTrue:
+		[ self processScriptFailedToParse: params ].
+
 	self error: 'Unknown event'.
