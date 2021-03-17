@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Chrome-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TGtAnnouncer classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"rawData",
@@ -16,5 +12,11 @@
 		"messageProcessor"
 	],
 	"name" : "ChromeDevToolsEndpoint",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TGtAnnouncer",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Chrome-Core-Base"
 }

@@ -2,8 +2,11 @@ ui
 gtScopeFor: aView
 	<gtView>
 
-	^ aView forward
+	^ aView list
 		title: 'Scope Chain';
 		priority: 15;
-		object: [ self scopeDictionary ];
-		view: #gtItemsFor:
+		items: [ self scopeChain ];
+		itemText: [ :scope | 
+			scope nameOrNil
+				ifNil: [ scope type ]
+				ifNotNil: [ scope type, ': ', scope name ] ]
