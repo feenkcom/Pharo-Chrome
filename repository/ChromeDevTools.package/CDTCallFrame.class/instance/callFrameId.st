@@ -1,5 +1,7 @@
 accessing
 callFrameId
-	"Auto-generated accessor method"
+	"Why is the callFrameId encoded as a JSON string?"
 
-	^ rawData at: #callFrameId
+	^ CDTCallFrameId 
+		fromDictionary: (STONJSON fromString: (rawData at: #callFrameId))
+		in: debugger

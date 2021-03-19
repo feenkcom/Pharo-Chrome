@@ -1,5 +1,5 @@
 accessing
-enumarable
+ordinal
 	"Auto-generated accessor method"
 
-	^ rawData at: #enumarable
+	^ rawData at: #ordinal

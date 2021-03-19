@@ -1,5 +1,7 @@
 accessing
 value
-	"Auto-generated accessor method"
 
-	^ rawData at: #value
+	^ rawData at: #value ifAbsent: 
+		[ self firstPreviewProperty
+			ifNotNil: [ :properties | properties at: #value ifAbsent: [ nil ] ]
+			ifNil: [ nil ]]

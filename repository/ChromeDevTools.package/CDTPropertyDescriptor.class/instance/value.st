@@ -1,5 +1,6 @@
 accessing
 value
-	"Auto-generated accessor method"
 
-	^ CDTRemoteObject fromDictionary: (rawData at: #value) in: debugger
+	^ rawData at: #value 
+		ifPresent: [ :value | CDTRemoteObject fromDictionary: value in: debugger ]
+		ifAbsent: [ nil ]
