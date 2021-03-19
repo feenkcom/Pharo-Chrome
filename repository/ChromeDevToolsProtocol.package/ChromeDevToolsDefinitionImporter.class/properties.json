@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "AlistairGrant 3/20/2021 11:47",
+	"super" : "Object",
+	"category" : "ChromeDevToolsProtocol-Import",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"jsFile",
+		"browserFile",
+		"classNamePrefix",
+		"overwrite",
+		"definition"
+	],
+	"name" : "ChromeDevToolsDefinitionImporter",
+	"type" : "normal"
+}

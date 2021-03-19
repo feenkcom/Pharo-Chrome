@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPCommand",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"trackAllocations"
+	],
+	"name" : "CDTPHeapProfilerStartTrackingHeapObjectsCommand",
+	"type" : "normal"
+}

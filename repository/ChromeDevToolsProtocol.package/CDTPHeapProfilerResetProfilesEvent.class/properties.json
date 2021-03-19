@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTPHeapProfilerResetProfilesEvent",
+	"type" : "normal"
+}

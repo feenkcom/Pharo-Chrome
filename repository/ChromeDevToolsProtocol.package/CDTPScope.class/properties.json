@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPType",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startLocation",
+		"type",
+		"object",
+		"name",
+		"endLocation",
+		"properties"
+	],
+	"name" : "CDTPScope",
+	"type" : "normal"
+}

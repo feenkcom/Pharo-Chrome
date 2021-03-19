@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTImporterProperty",
+	"category" : "ChromeDevToolsProtocol-Import",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTImporterParameter",
+	"type" : "normal"
+}

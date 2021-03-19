@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"profile",
+		"title",
+		"location"
+	],
+	"name" : "CDTPProfilerConsoleProfileFinishedEvent",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"chunk"
+	],
+	"name" : "CDTPHeapProfilerAddHeapSnapshotChunkEvent",
+	"type" : "normal"
+}

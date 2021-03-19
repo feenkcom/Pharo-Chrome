@@ -1,0 +1,1 @@
+Describes a type collected during runtime.

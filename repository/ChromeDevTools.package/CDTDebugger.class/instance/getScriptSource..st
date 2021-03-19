@@ -4,6 +4,6 @@ getScriptSource: scriptIdString
 	| resultHolder |
 
 	resultHolder := self
-		sendMessage: (ChromeDebuggerMessageFactory new getScriptSource: scriptIdString)
+		sendMessage: (ChromeDebuggerMessageFactory new getScriptSource: scriptIdString asString)
 		wait: true.
 	^ (resultHolder at: #result) at: #scriptSource

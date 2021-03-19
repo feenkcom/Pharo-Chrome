@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPCommand",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"treatGlobalObjectsAsRoots",
+		"reportProgress"
+	],
+	"name" : "CDTPHeapProfilerTakeHeapSnapshotCommand",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+Issued when unhandled exception was revoked.

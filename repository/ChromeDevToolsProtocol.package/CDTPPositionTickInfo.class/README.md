@@ -1,0 +1,1 @@
+Specifies a number of samples attributed to a certain source position.

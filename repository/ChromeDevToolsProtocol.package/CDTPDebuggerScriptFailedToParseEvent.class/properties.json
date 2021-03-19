@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scriptId",
+		"startColumn",
+		"startLine",
+		"executionContextAuxData",
+		"hasSourceURL",
+		"url",
+		"isModule",
+		"endLine",
+		"executionContextId",
+		"codeOffset",
+		"scriptLanguage",
+		"embedderName",
+		"sourceMapURL",
+		"stackTrace",
+		"length",
+		"hash",
+		"endColumn"
+	],
+	"name" : "CDTPDebuggerScriptFailedToParseEvent",
+	"type" : "normal"
+}

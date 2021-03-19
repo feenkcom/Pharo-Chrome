@@ -1,0 +1,1 @@
+A single sample from a sampling profile.

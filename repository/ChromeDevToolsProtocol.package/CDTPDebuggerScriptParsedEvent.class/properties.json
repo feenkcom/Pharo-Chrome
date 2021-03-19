@@ -1,0 +1,31 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"endColumn",
+		"isLiveEdit",
+		"sourceMapURL",
+		"hasSourceURL",
+		"debugSymbols",
+		"scriptLanguage",
+		"scriptId",
+		"executionContextId",
+		"hash",
+		"length",
+		"codeOffset",
+		"embedderName",
+		"executionContextAuxData",
+		"stackTrace",
+		"startLine",
+		"url",
+		"endLine",
+		"isModule",
+		"startColumn"
+	],
+	"name" : "CDTPDebuggerScriptParsedEvent",
+	"type" : "normal"
+}

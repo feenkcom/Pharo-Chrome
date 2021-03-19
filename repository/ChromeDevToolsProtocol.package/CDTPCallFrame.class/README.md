@@ -1,0 +1,1 @@
+JavaScript call frame. Array of call frames form the call stack.

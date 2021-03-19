@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPCommand",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"disableBreaks",
+		"contextId",
+		"includeCommandLineAPI",
+		"generatePreview",
+		"objectGroup",
+		"throwOnSideEffect",
+		"userGesture",
+		"awaitPromise",
+		"timeout",
+		"replMode",
+		"returnByValue",
+		"allowUnsafeEvalBlockedByCSP",
+		"uniqueContextId",
+		"expression",
+		"silent"
+	],
+	"name" : "CDTPRuntimeEvaluateCommand",
+	"type" : "normal"
+}

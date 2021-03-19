@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"executionContextId",
+		"args",
+		"timestamp",
+		"stackTrace",
+		"context",
+		"type"
+	],
+	"name" : "CDTPRuntimeConsoleAPICalledEvent",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPType",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"header",
+		"bodyGetterId"
+	],
+	"name" : "CDTPCustomPreview",
+	"type" : "normal"
+}

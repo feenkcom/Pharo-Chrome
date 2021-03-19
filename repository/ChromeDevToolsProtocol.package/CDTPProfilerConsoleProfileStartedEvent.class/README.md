@@ -1,0 +1,1 @@
+Sent when new profile recording is started using console.profile() call.
