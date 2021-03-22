@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPCommand",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"samplingInterval"
+	],
+	"name" : "CDTPHeapProfilerStartSamplingCommand",
+	"type" : "normal"
+}

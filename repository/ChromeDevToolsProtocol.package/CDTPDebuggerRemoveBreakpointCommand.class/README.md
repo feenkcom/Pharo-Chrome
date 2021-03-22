@@ -1,0 +1,2 @@
+Removes JavaScript breakpoint.
+

@@ -1,0 +1,1 @@
+Type profile data collected during runtime for a JavaScript script.

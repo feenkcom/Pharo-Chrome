@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPCommand",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CDTPHeapProfilerDisableCommand",
+	"type" : "normal"
+}

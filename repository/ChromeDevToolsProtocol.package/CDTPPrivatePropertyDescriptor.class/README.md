@@ -1,0 +1,1 @@
+Object private field descriptor.

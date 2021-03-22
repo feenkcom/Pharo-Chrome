@@ -1,0 +1,1 @@
+Debug symbols available for a wasm script.

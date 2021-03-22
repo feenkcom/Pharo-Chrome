@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:39",
+	"super" : "CDTPType",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"this",
+		"functionName",
+		"url",
+		"functionLocation",
+		"callFrameId",
+		"scopeChain",
+		"location",
+		"returnValue",
+		"scriptId",
+		"lineNumber",
+		"columnNumber"
+	],
+	"name" : "CDTPCallFrame",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPType",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"scriptId",
+		"lineNumber",
+		"columnNumber"
+	],
+	"name" : "CDTPBreakLocation",
+	"type" : "normal"
+}

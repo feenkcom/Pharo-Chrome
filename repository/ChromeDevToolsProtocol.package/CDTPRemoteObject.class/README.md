@@ -1,0 +1,1 @@
+Mirror object referencing original JavaScript object.

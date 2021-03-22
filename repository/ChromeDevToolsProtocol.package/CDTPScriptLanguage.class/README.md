@@ -1,0 +1,1 @@
+Enum of possible script languages.

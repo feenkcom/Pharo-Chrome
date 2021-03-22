@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "AlistairGrant 3/21/2021 12:36",
+	"super" : "CDTPType",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"description",
+		"parent",
+		"callFrames",
+		"parentId"
+	],
+	"name" : "CDTPStackTrace",
+	"type" : "normal"
+}

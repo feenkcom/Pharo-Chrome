@@ -1,0 +1,1 @@
+Fired when virtual machine fails to parse the script.

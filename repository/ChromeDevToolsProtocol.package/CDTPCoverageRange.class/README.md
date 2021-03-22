@@ -1,0 +1,1 @@
+Coverage data for a source range.

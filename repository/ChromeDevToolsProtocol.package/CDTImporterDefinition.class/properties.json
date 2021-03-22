@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TGtOptions classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"version",
+		"domains"
+	],
+	"name" : "CDTImporterDefinition",
+	"commentStamp" : "",
+	"super" : "CDTImporterObject",
+	"traitcomposition" : "TGtOptions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ChromeDevToolsProtocol-Import"
+}

@@ -1,0 +1,1 @@
+Notification is issued every time when binding is called.

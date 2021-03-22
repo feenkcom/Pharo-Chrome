@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CDTPEvent",
+	"category" : "ChromeDevToolsProtocol-Protocol",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"done",
+		"finished",
+		"total"
+	],
+	"name" : "CDTPHeapProfilerReportHeapSnapshotProgressEvent",
+	"type" : "normal"
+}

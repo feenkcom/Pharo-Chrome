@@ -1,0 +1,1 @@
+Issued when exception was thrown and unhandled.

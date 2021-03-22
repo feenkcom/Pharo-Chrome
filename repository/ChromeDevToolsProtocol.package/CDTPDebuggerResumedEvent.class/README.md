@@ -1,0 +1,1 @@
+Fired when the virtual machine resumed execution.

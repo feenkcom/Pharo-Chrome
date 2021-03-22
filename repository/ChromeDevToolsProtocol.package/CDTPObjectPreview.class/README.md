@@ -1,0 +1,1 @@
+Object containing abbreviated remote object value.
