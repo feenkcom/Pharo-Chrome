@@ -13,10 +13,11 @@ baseline: spec
 				spec requires: #('ZincHTTPComponents'). ];
 			package: #'ChromeDevTools' with: [ 
 				spec requires: #(#'Chrome-Core') ];
+			package: #'ChromeDevToolsProtocol';
 			package: #'Chrome-Tests-Core' with: [
 				spec requires: #(#'Chrome-Core' ). ].
 		spec 
-			group: 'Core' with: #(#'Chrome-Core' #'ChromeDevTools');
+			group: 'Core' with: #(#'Chrome-Core' #'ChromeDevTools' #'ChromeDevToolsProtocol');
 			group: 'Tests' with: #(#'Chrome-Tests-Core' );
 			group: 'all' with: #('Core' 'Tests' );
 			group: 'default' with: #('all' ). ].
