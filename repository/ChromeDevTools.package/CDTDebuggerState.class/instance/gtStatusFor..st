@@ -5,5 +5,5 @@ gtStatusFor: aView
 	^ aView textEditor 
 		title: 'Status';
 		priority: 10;
-		look: BrGlamorousCodeEditorLook;
+		aptitude: BrGlamorousCodeEditorAptitude;
 		text: [ self statusString asRopedText ]
