@@ -10,7 +10,7 @@ The main responsibilities of message processors are:
 
 Public API and Key Messages
 
-- #processMessage: is sent by the message receive loop for each message received from the browser.
+- processMessage: is sent by the message receive loop for each message received from the browser.
 
 Internal Representation and Key Implementation Points.
 
