@@ -1,6 +1,6 @@
 settings
 catalogSettingsOn: aBuilder  
-	<systemsettings>  
+	"<systemsettings>"  
 	(aBuilder group: #chrome)
 		label: 'Chrome';
 		parent: #tools;
