@@ -11,4 +11,4 @@ captureScreenshot
 		scale: 1.0.
 	json := self sendMessage: message.
 	base64 := (json at: 'result') at: 'data'.
-		^Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: base64 readStream) 
+	^ Form fromBinaryStream: base64 base64Decoded readStream.
