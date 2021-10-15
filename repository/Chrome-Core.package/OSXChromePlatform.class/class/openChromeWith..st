@@ -1,7 +1,9 @@
 utilities
 openChromeWith: arguments
- 	
 	| process |
-	process := ChromeUnixSubprocess command: self defaultExecutableLocation arguments: arguments.
-	process run.
-	^process
+
+	process := GtSubprocessWithInMemoryOutput 
+					command: self defaultExecutableLocation 
+					arguments: arguments.
+	process runAndSignal.
+	^ process
