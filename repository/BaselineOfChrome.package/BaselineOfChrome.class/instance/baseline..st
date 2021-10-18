@@ -2,6 +2,8 @@ baseline
 baseline: spec
 	<baseline>
 
+	self error: 'The master branch is deprecated, use the main branch'.
+
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec baseline: 'ZincHTTPComponentsWebSocket' with: 
