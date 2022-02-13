@@ -13,6 +13,15 @@ processMessage: aMessageDictionary
 				ChromeStringSignal emit: 'start loading ', messageFrameId printString
 					category: self class.
 				].
+			method = 'Page.frameClearedScheduledNavigation' ifTrue:
+				[ 
+				messageFrameId := params at: 'frameId'.
+				loading remove: messageFrameId
+					ifAbsent: [ StringSignal emit: 'unable to remove ', messageFrameId printString ].
+				stoppedLoading add: messageFrameId.
+				ChromeStringSignal emit: 'frame cleared scheduled navigation ', messageFrameId printString
+					category: self class.
+				].
 			method = 'Page.frameStoppedLoading' ifTrue:
 				[
 				messageFrameId := params at: 'frameId'.
