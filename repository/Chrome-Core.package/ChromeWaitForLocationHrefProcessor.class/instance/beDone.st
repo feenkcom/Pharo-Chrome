@@ -1,0 +1,4 @@
+private
+beDone
+
+	status := #done
