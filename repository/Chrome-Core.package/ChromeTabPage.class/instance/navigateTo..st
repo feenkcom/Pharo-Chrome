@@ -15,5 +15,5 @@ navigateTo: anURL
 	"Update the frame loading processor with the frame id.  This will also process any saved messages."
 	processor frameId: ((result at: 'result') at: 'frameId').
 	processor wait.
-	"self removeMessageProcessor: processor."
+	self removeMessageProcessor: processor.
 	^result.
