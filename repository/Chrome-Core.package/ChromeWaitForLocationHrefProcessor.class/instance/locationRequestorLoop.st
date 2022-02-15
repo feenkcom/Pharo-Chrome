@@ -3,8 +3,18 @@ locationRequestorLoop
 
 	| aResponse aCurrentHref |
 	[ self isDone ] whileFalse: [ 
-		"Postpone request"
-		(Delay forMilliseconds: pageLoadDelay) wait.
+		| isFirstTime |
+		isFirstTime := self isInitialized.
+		
+		"Wait for a next request"
+		status := #waiting.
+		checkSemaphore wait.
+
+		isFirstTime ifFalse: [ 
+			"Postpone request" 
+			(Delay forMilliseconds: pageLoadDelay) wait ].
+
+		status := #checking.
 
 		"Ask for a location HREF"
 		aResponse := self page sendMessage:
@@ -23,22 +33,11 @@ locationRequestorLoop
 					                ifAbsent: [ nil ] ]
 			                ifAbsent: [ nil ].
 
-		NonInteractiveTranscript stdout
-			show: 'Received HREF: ';
-			show: aCurrentHref;
-			show: ', comparing with: ';
-			show: self href;
-			cr.
-
 		"If it is the expected one, signal it"
 		aCurrentHref ifNotNil: [ :aHref | 
-			aHref = self href ifTrue: [ 
-				NonInteractiveTranscript stdout
-					show: 'Stopping Locatin HREF look...';
-					cr.
-					
-				self beDone.
+			aHref = self href ifTrue: [
 
+				self beDone.
 				semaphore signal ] ] ].
 
 	locationRequestor := nil

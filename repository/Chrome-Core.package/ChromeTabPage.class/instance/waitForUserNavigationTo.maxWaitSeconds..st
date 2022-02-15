@@ -13,6 +13,8 @@ waitForUserNavigationTo: anURL maxWaitSeconds: aNumber
 
 	self addMessageProcessor: aProcessor.
 
-	[ aProcessor wait ] ensure: [ 
+	[ 
+	aProcessor start.
+	aProcessor wait ] ensure: [ 
 		self removeMessageProcessor: aProcessor.
 		aProcessor stop ]
