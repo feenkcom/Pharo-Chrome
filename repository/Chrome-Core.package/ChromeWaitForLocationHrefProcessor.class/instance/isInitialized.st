@@ -1,0 +1,4 @@
+testing
+isInitialized
+
+	^ status = #initialized
