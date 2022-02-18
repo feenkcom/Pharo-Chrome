@@ -9,3 +9,4 @@ initialize
 	pageLoadDelay := 2000.
 	socketState := #closed.
 	webSocket := nil.
+	cancelHandler := ChromeActivityCancelHandler new
