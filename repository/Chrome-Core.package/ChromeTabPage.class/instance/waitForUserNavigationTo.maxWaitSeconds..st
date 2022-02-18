@@ -9,7 +9,8 @@ waitForUserNavigationTo: anURL maxWaitSeconds: aNumber
 		              page: self;
 		              href: anURL asZnUrl;
 		              pageLoadDelay: pageLoadDelay;
-		              maxWaitSeconds: aNumber.
+		              maxWaitSeconds: aNumber;
+		              registerForCancelActions: cancelHandler.
 
 	self addMessageProcessor: aProcessor.
 
@@ -17,4 +18,6 @@ waitForUserNavigationTo: anURL maxWaitSeconds: aNumber
 	aProcessor start.
 	aProcessor wait ] ensure: [ 
 		self removeMessageProcessor: aProcessor.
-		aProcessor stop ]
+		aProcessor stop ].
+
+	cancelHandler maySignalCancel

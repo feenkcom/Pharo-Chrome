@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callbacks",
+		"mutex",
+		"shouldSignal",
+		"cancelMessage"
+	],
+	"name" : "ChromeActivityCancelHandler",
+	"type" : "normal"
+}
