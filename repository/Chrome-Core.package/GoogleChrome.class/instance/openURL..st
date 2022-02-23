@@ -3,6 +3,9 @@ openURL: anURL
 	"Open the requested URL.
 	If there is an existing instance of Chrome that we can connect to, use that, if not, launch a new instance"
 	| args retryCount version |
+	
+	"Make sure there is an executable"
+	ChromePlatform current ensuredExecutableLocation.
 
 	[ self version ]
 		on: ConnectionTimedOut
