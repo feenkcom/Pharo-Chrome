@@ -3,7 +3,7 @@ openChromeWith: arguments
 	| process |
 
 	process := GtSubprocessWithInMemoryOutput 
-					command: self defaultExecutableLocation 
+					command: self ensuredExecutableLocation 
 					arguments: arguments.
 	process runAndSignal.
 	^ process

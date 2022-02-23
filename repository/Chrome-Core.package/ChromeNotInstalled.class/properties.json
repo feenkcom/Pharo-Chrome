@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Error",
+	"category" : "Chrome-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeNotInstalled",
+	"type" : "normal"
+}
