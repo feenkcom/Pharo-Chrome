@@ -5,10 +5,10 @@ defaultExecutableLocations
 	possiblePaths := { 
 		                 (Smalltalk os environment
 			                  at: 'ProgramFiles'
-			                  ifAbsent: [ nil ]).
+			                  ifAbsent: [ 'C:\Program Files' ]).
 		                 (Smalltalk os environment
 			                  at: 'ProgramFiles(x86)'
-			                  ifAbsent: [ nil ]).
+			                  ifAbsent: [ 'C:\Program Files (x86)' ]).
 		                 (Smalltalk os environment
 			                  at: 'LocalAppData'
 			                  ifAbsent: [ nil ]) }.
