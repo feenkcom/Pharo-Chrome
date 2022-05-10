@@ -8,7 +8,7 @@ updateHighlightingFrom: callFrame
 
 	"Remove the old highlighting"
 	highlightStart ifNotNil:
-		[ (text from: highlightStart to: highlightEnd) clearAttributes: [ :x | true ] ].
+		[ text clearAttributes: highlightStart to: highlightEnd ].
 
 	"Set new highlighting"
 	highlightLineNumber := callFrame lineNumber.
