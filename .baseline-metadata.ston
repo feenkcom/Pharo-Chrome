@@ -1,1 +1,5 @@
-{	"repositories" : {		"github://feenkcom/zinc/repository" : "v3.0.27"	}}
+{
+	"repositories" : {
+		"github://feenkcom/zinc/repository" : "v3.0.28"
+	}
+}
