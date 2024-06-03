@@ -11,7 +11,7 @@ startMessageListener
 			do: [ :ex | 
 					ChromeStringSignal emit: 'Message Listener, normal timeout' category: 'Message Listener'.
 					ex retry ] ]
-				on: ConnectionClosed, PrimitiveFailed
+				on: ConnectionClosed, PrimitiveFailed, SocketError
 				do: [ :ex | 
 					ChromeStringSignal emit: 'Message Listener, connection closed' category: 'Message Listener'.
 					self disconnected ] ].
