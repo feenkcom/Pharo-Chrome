@@ -11,7 +11,9 @@ startMessageListener
 			do: [ :ex | 
 					ChromeStringSignal emit: 'Message Listener, normal timeout' category: 'Message Listener'.
 					ex retry ] ]
-				on: ConnectionClosed, PrimitiveFailed, SocketError
+				"Sockets signal SocketError instead of PrimitiveFailed in Pharo 11, 
+				PrimitiveFailed should be removed from here when Pharo 10 compatibility is dropped"
+				on: (ExceptionSet withClassNames: #(#ConnectionClosed #PrimitiveFailed #SocketError))
 				do: [ :ex | 
 					ChromeStringSignal emit: 'Message Listener, connection closed' category: 'Message Listener'.
 					self disconnected ] ].
