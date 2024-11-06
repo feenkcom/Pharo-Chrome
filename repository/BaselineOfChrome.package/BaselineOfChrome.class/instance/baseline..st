@@ -4,10 +4,10 @@ baseline: spec
 	spec for: #'common' do: [
 		spec
 			baseline: 'ZincHTTPComponentsWebSocket' with: [
-				spec repository: 'github://feenkcom/zinc:v3.0.56/repository' ].
+				spec repository: 'github://feenkcom/zinc:v3.0.57/repository' ].
 
 		spec package: 'Chrome-Core' with: [
-			spec requires: #('ZincHTTPComponentsWebSocket') ].
+			spec requires: #(#ZincHTTPComponentsWebSocket) ].
 		spec package: 'ChromeDevTools' with: [
 			spec requires: #(#'Chrome-Core') ].
 		spec package: 'ChromeDevToolsProtocol'.
