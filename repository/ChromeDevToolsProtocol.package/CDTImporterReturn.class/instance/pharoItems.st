@@ -8,4 +8,4 @@ pharoItems
 		ifFalse: [ assoc key = #type ifTrue:
 			[ self pharoTypeMap at: assoc value]
 		ifFalse:
-			[ self halt ] ] ]
+			[ self error: 'Missing reference' ] ] ]
