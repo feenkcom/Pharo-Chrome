@@ -24,7 +24,8 @@
 		"url",
 		"endLine",
 		"isModule",
-		"startColumn"
+		"startColumn",
+		"buildId"
 	],
 	"name" : "CDTPDebuggerScriptParsedEvent",
 	"type" : "normal"
