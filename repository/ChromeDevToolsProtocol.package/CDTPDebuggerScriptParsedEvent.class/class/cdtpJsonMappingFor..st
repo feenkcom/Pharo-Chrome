@@ -22,4 +22,5 @@ cdtpJsonMappingFor: aNeoJSONMapper
 		mapping mapAccessor: #scriptLanguage to: #scriptLanguage.
 		mapping mapAccessor: #debugSymbols to: #debugSymbols.
 		mapping mapAccessor: #embedderName to: #embedderName.
+		mapping mapAccessor: #buildId to: #buildId.
 		].
