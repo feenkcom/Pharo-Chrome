@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfChrome!
+self packageOrganizer ensurePackage: #BaselineOfChrome withTags: #()!
