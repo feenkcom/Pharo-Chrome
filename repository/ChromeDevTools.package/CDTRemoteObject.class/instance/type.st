@@ -2,4 +2,4 @@ accessing
 type
 	"Auto-generated accessor method"
 
-	^ rawData at: #type
+	^ rawData at: 'type'

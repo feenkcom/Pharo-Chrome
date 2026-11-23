@@ -2,5 +2,5 @@ messages
 stepOut
 
 	^ Dictionary new 
-		at: #method put: #'Debugger.stepOut';
+		at: 'method' put: 'Debugger.stepOut';
 		yourself

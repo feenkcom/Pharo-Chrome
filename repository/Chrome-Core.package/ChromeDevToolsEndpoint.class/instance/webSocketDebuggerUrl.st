@@ -1,4 +1,4 @@
 accessing
 webSocketDebuggerUrl 
 
-	^ rawData at: #webSocketDebuggerUrl
+	^ rawData at: 'webSocketDebuggerUrl'

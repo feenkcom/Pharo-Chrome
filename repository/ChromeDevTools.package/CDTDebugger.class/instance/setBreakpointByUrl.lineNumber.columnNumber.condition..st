@@ -10,6 +10,6 @@ setBreakpointByUrl: urlRegexString lineNumber: lineNumber columnNumber: columnNu
 				columnNumber: columnNumber 
 				condition: conditionString)
 		wait: true.
-	breakpoint := CDTDebuggerBreakpoint fromDictionary: (resultHolder at: #result) in: self.
+	breakpoint := CDTDebuggerBreakpoint fromDictionary: (resultHolder at: 'result') in: self.
 	breakpoints at: breakpoint breakpointId put: breakpoint.
 	^ breakpoint

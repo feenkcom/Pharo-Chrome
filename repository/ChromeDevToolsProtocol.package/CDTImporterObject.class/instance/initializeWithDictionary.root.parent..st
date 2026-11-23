@@ -6,5 +6,5 @@ initializeWithDictionary: aDictionary root: aRootDefinition parent: aParent
 	rawData := aDictionary.
 	rawData keysAndValuesDo: [ :key :value | | selector |
 		selector := (key, ':') asSymbol.
-		selector = '$ref:' ifTrue: [ selector := #ref: ].
+		key = '$ref' ifTrue: [ selector := #ref: ].
 		self perform: selector with: value ]

@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #ChromeDevToolsProtocol!
-SystemOrganization addCategory: #'ChromeDevToolsProtocol-Import'!
-SystemOrganization addCategory: #'ChromeDevToolsProtocol-Protocol'!
+self packageOrganizer ensurePackage: #ChromeDevToolsProtocol withTags: #(#Import #Protocol)!

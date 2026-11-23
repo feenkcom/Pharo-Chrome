@@ -1,4 +1,4 @@
 accessing
 description 
 
-	^ rawData at: #description
+	^ rawData at: 'description'

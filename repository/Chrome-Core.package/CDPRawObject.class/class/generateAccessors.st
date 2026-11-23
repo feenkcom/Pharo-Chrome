@@ -9,8 +9,8 @@ generateAccessors
 				tab;
 				<< '"Auto-generated accessor method"'; cr; cr;
 				tab;
-				<< '^ rawData at: #';
-				<< accessorName ].
+				<< '^ rawData at: ';
+				print: accessorName asString ].
 		(RBAddMethodChange
 			compile: source
 			in: self

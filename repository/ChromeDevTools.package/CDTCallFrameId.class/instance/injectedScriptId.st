@@ -2,4 +2,4 @@ accessing
 injectedScriptId
 	"Auto-generated accessor method"
 
-	^ rawData at: #injectedScriptId
+	^ rawData at: 'injectedScriptId'

@@ -2,4 +2,4 @@ accessing
 isOwn
 	"Auto-generated accessor method"
 
-	^ rawData at: #isOwn
+	^ rawData at: 'isOwn'

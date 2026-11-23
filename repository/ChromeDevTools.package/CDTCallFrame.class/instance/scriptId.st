@@ -1,5 +1,5 @@
 accessing
 scriptId 
 
-	^ rawData at: #scriptId
-		ifAbsent: [ self functionLocation at: #scriptId ]
+	^ rawData at: 'scriptId'
+		ifAbsent: [ self functionLocation at: 'scriptId' ]

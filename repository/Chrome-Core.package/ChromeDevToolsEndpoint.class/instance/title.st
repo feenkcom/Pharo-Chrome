@@ -1,4 +1,4 @@
 accessing
 title 
 
-	^ rawData at: #title
+	^ rawData at: 'title'

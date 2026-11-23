@@ -1,4 +1,4 @@
 accessing
 disableMethod
 
-	^ #'Runtime.disable'
+	^ 'Runtime.disable'

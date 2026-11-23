@@ -1,0 +1,2 @@
+I show how Chrome DevTools protocol messages are read and written.
+Chrome or node sends JSON, so the keys and values of a message, and of the endpoint list, are Strings: the debugger reads them with String keys and compares the values it gets with Strings, and the messages it sends are built with String keys.

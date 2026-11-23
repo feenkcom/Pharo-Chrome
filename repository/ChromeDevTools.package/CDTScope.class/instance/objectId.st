@@ -1,4 +1,4 @@
 accessing
 objectId 
 
-	^ self object at: #objectId
+	^ self object at: 'objectId'

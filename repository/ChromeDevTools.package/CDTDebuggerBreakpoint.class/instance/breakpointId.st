@@ -1,4 +1,4 @@
 accessing
 breakpointId
 
-	^ rawData at: #breakpointId
+	^ rawData at: 'breakpointId'

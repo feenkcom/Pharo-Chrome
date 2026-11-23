@@ -1,4 +1,4 @@
 accessing
 disableMethod
 
-	^ #'Debugger.disable'
+	^ 'Debugger.disable'

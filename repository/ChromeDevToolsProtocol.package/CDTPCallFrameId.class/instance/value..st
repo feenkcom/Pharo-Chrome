@@ -6,5 +6,5 @@ value: aString
 
 	value := aString.
 	dict := STONJSON fromString: value.
-	ordinal := dict at: #ordinal.
-	injectedScriptId := dict at: #injectedScriptId.
+	ordinal := dict at: 'ordinal'.
+	injectedScriptId := dict at: 'injectedScriptId'.

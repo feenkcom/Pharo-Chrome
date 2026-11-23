@@ -1,4 +1,4 @@
 accessing
 typeOrNil
 
-	^ rawData at: #type ifAbsent: [ nil ]
+	^ rawData at: 'type' ifAbsent: [ nil ]

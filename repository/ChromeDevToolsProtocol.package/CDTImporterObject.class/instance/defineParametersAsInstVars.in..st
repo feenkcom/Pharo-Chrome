@@ -9,7 +9,7 @@ defineParametersAsInstVars: anArray in: className
 		ifAbsent: [ #() ].
 	existingInstVars := existingInstVars asSet.
 
-	newNames := anArray collect: [ :each | each name ] as: Set.
+	newNames := anArray collect: [ :each | each name asSymbol ] as: Set.
 	rbModel := rootDefinition rbModel.
 	(newNames difference: existingInstVars) do: [ :instVarName |
 		rbAddInstVar := RBAddInstanceVariableRefactoring

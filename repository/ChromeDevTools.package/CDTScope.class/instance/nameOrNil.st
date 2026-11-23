@@ -1,4 +1,4 @@
 accessing
 nameOrNil
 
-	^ rawData at: #name ifAbsent: [ nil ]
+	^ rawData at: 'name' ifAbsent: [ nil ]
