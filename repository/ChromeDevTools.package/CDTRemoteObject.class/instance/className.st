@@ -2,4 +2,4 @@ accessing
 className
 	"Auto-generated accessor method"
 
-	^ rawData at: #className
+	^ rawData at: 'className'

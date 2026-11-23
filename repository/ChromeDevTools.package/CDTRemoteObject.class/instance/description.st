@@ -2,4 +2,4 @@ accessing
 description
 	"Auto-generated accessor method"
 
-	^ rawData at: #description
+	^ rawData at: 'description'

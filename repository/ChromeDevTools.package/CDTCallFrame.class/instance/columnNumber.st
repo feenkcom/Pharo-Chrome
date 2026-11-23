@@ -1,7 +1,7 @@
 accessing
 columnNumber 
 
-	^ rawData at: #columnNumber 
+	^ rawData at: 'columnNumber' 
 		ifAbsent: [ self location 
-			at: #columnNumber
+			at: 'columnNumber'
 			ifAbsent: [ 0 ] ]

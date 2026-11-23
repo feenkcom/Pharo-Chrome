@@ -1,4 +1,4 @@
 accessing
 enableMethod 
 
-	^ #'Page.enable'
+	^ 'Page.enable'

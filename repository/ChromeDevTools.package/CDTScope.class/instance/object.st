@@ -2,4 +2,4 @@ accessing
 object
 	"Auto-generated accessor method"
 
-	^ rawData at: #object
+	^ rawData at: 'object'

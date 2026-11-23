@@ -1,4 +1,4 @@
 accessing
 enableMethod
 
-	^ #'Runtime.enable'
+	^ 'Runtime.enable'

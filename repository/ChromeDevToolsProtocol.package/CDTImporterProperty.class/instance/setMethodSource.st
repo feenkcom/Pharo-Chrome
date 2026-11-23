@@ -21,7 +21,7 @@ setMethodSource
 				tab; tab; << '[ anObject ]'; cr ]
 		ifNil: [ 	self items ifNotNil:
 			[ self items size = 1 ifTrue:
-				[ self items at: #'$ref' ifPresent: [ :itemRef |
+				[ self items at: '$ref' ifPresent: [ :itemRef |
 					refClassName := self referenceClassFor: itemRef ] ].
 			refClassName ifNotNil:
 				[ stream

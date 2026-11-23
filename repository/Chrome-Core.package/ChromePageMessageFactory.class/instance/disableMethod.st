@@ -1,4 +1,4 @@
 accessing
 disableMethod 
 
-	^ #'Page.disable'
+	^ 'Page.disable'

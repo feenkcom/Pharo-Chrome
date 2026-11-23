@@ -2,5 +2,5 @@ messages
 getStackTrace: stackTraceId
 	"What's the stackTraceId?"
 
-	^ { #method -> 'Debugger.getStackTraceId'.
+	^ { 'method' -> 'Debugger.getStackTraceId'.
 		"#params -> { #scriptId -> sourceIdString } asDictionary" } asDictionary.

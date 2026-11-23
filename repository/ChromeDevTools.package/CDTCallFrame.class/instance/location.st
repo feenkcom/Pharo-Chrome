@@ -1,4 +1,4 @@
 accessing
 location
 
-	^ rawData at: #location
+	^ rawData at: 'location'

@@ -4,5 +4,5 @@ endPoints
 	| remotes |
 
 	remotes := STON fromString: (ZnEasy get: host, '/json') contents.
-	^(remotes select: [ :each | each includesKey: #webSocketDebuggerUrl])
+	^(remotes select: [ :each | each includesKey: 'webSocketDebuggerUrl'])
 		collect: [:each | self endPointClass fromDictionary: each ].

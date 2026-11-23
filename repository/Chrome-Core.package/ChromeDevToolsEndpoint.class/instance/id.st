@@ -1,4 +1,4 @@
 accessing
 id 
 
-	^ rawData at: #id
+	^ rawData at: 'id'

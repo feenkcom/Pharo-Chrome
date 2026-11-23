@@ -2,4 +2,4 @@ accessing
 scriptId
 	"Auto-generated accessor method"
 
-	^ rawData at: #scriptId
+	^ rawData at: 'scriptId'

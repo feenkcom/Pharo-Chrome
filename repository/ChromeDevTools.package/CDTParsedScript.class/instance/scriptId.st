@@ -1,4 +1,4 @@
 accessing
 scriptId
 
-	^ rawData at: #scriptId
+	^ rawData at: 'scriptId'

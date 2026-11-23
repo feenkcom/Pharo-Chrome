@@ -1,7 +1,7 @@
 accessing
 value
 
-	^ rawData at: #value ifAbsent: 
+	^ rawData at: 'value' ifAbsent: 
 		[ self firstPreviewProperty
-			ifNotNil: [ :properties | properties at: #value ifAbsent: [ nil ] ]
+			ifNotNil: [ :properties | properties at: 'value' ifAbsent: [ nil ] ]
 			ifNil: [ nil ]]

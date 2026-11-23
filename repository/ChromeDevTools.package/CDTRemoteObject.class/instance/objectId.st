@@ -2,4 +2,4 @@ accessing
 objectId
 	"Auto-generated accessor method"
 
-	^ rawData at: #objectId
+	^ rawData at: 'objectId'

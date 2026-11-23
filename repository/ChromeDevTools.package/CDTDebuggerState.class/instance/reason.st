@@ -2,4 +2,4 @@ accessing
 reason
 	"Auto-generated accessor method"
 
-	^ rawData at: #reason
+	^ rawData at: 'reason'

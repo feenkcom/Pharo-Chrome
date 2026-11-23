@@ -1,4 +1,4 @@
 accessing
 enableMethod
 
-	^ #'Debugger.enable'
+	^ 'Debugger.enable'
